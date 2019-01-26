@@ -1,0 +1,27 @@
+<h1>{{title}}</h1>
+<div class="col-6">
+  <div class="form-group">
+    <label>First Name:</label>
+    <input class="form-control" type="text" [(ngModel)]="person.FirstName" /> <br />
+  </div>
+  <div class="form-group">
+    <label>Last Name:</label> <br />
+    <input class="form-control" type="text" [(ngModel)]="person.LastName" /> <br />
+  </div>
+  <div class="form-group">
+    <label>Age:</label> <br />
+    <input class="form-control" type="text" [(ngModel)]="person.Age" /> <br />
+  </div>
+  <div class="form-group">
+    <label>Email:</label> <br />
+    <input class="form-control" type="text" [(ngModel)]="person.Email" /> <br />
+  </div>
+</div>
+
+<hr />
+<div>
+  <p>First name <strong>{{person.FirstName}}</strong></p>
+  <p>Last name <strong>{{person.LastName}}</strong></p>
+  <p>Age <strong>{{person.Age}}</strong></p>
+  <p>E-mail <strong>{{person.Email}}</strong></p>
+</div>
